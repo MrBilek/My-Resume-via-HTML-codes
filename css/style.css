@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+
+
+}
+
+input, textarea {
+
+
+border: 3px solid rgb(50, 121, 50);
+
+border-radius: 10px;
+width: 100%;
+
+/* padding and width adjusts add */
+
+}
+
+button{
+    border: 3px solid rgb(34, 107, 34);
+background-color: rgb(34, 107, 34) ;
+border-radius: 8px;
+font-size: 30px;
+color: beige;
+
+/* padding*/
+
+}
+
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgb(0, 17, 255);
+    background-color: rgb(136, 59, 143);
+    border-radius: 20px;
+    /* padding*/
+}
+
+.header .title {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content .about{
+
+display: flex;
+align-items: center;
+width: 85%;
+padding: 40px;
+margin: 40px;
+gap: 30px;
+
+
+}
+
+.content .about img{
+
+    width: 600px;
+    height: 500px;
+    border: 5px solid green;
+    border-radius: 250px ;
+    margin-left: 150px;
+
+
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+.section {
+    width: 60%;
+
+}
+
+.section .card{
+    display: flex;
+    align-items: center;
+    border: 3px solid blueviolet;
+    border-radius: 30px;
+    padding: 40px;
+    margin: 40px; 
+    box-shadow: 5px 10px gray;
+    background-color: rgb(235, 141, 227);
+
+}
+
+.section.card.left{
+    flex: 2;
+}
+
+.section.card.rigt{
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 3px dotted gray;
+}
